@@ -11,6 +11,7 @@ Protection multicouche: Authentification, chiffrement, et communications HTTPS
 
 📋 Architecture du projet
 L'application est structurée selon une architecture modulaire et sécurisée:
+
 /
 ├── app.py                # Application Flask principale
 ├── models/               # Modèles ML préentraînés
@@ -21,6 +22,8 @@ L'application est structurée selon une architecture modulaire et sécurisée:
 ├── static/               # Ressources statiques (CSS, JS, images)
 ├── keys/                 # Clés de chiffrement (non exposées)
 └── requirements.txt      # Dépendances du projet
+
+
 🔧 Technologies
 
 - Backend: Python 3.x, Flask
